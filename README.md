@@ -11,11 +11,7 @@ This repository contains two webpage clones developed as assignments:
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running](#running)
-- [Deployment](#deployment)
-- [Built With](#built-with)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ## 🚀 Getting Started
 
