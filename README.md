@@ -40,3 +40,10 @@ These instructions will help you set up a local instance of the project. See the
    ```bash
    npm install
 
+## 🏃 Running
+
+To start the local development server:
+
+```bash
+npm start
+
