@@ -1,0 +1,44 @@
+.foot {
+    background: #081528;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    z-index: 1;
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+.foot ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.foot .logo img {
+    max-width: 150px;
+}
+
+.foot .social button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    cursor: pointer; /* Makes it clear that it's clickable */
+}
+
+/* Added hover effect */
+.foot .social button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.foot h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
