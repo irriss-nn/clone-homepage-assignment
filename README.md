@@ -36,7 +36,7 @@ These instructions will help you set up a local instance of the project. See the
    ```bash
    cd ntwist-homepage
 
-3.Install dependencies:
-  ```bash
+3. Install dependencies:
+   ```bash
    npm install
 
