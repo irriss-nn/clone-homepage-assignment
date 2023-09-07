@@ -31,3 +31,12 @@ These instructions will help you set up a local instance of the project. See the
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/yourrepositoryname.git
+
+2. Navigate to the directory of the assignment you wish to run. For instance, to navigate to ntwist-homepage:
+   ```bash
+   cd ntwist-homepage
+
+3.Install dependencies:
+  ```bash
+   npm install
+
