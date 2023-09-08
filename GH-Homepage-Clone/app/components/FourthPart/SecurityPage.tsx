@@ -1,30 +1,34 @@
 'use client'
-import React, {useState} from 'react'
-import HoverCard from '../HoverCard'
-import Projects from './Layout'
-import {motion} from "framer-motion"
+import React, { useState } from 'react';
+import HoverCard from '../HoverCard';
+import Projects from './Layout';
+import { motion } from "framer-motion";
 
 type Props = {}
 
+// Security component which displays information related to security
 const Security = (props: Props) => {
-    const [hovered, setHovered] = useState<boolean>(false)
-    const [hovered1, setHovered1] = useState<boolean>(false)
-    const [hovered2, setHovered2] = useState<boolean>(false)
+    // State management for hover interactions
+    const [hovered, setHovered] = useState<boolean>(false);
+    const [hovered1, setHovered1] = useState<boolean>(false);
+    const [hovered2, setHovered2] = useState<boolean>(false);
 
+    // Animation properties for the container
     const container = {
         hidden: { opacity: 0 },
         show: {
-        opacity: 1,
-        transition: {
-            staggerChildren: 0.1,
-            delayChildren:0.4,
-        },
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.1,
+                delayChildren: 0.4,
+            },
         },
     };
-    
+
+    // Animation properties for individual items
     const item = {
-        hidden: { opacity: 0, scale:0.8 },
-        show: { opacity: 1, scale:1},
+        hidden: { opacity: 0, scale: 0.8 },
+        show: { opacity: 1, scale: 1 },
     };
 return (
     <div className='max-w-[1280px] mx-auto'>
