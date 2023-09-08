@@ -22,7 +22,7 @@ These instructions will help you set up a local instance of the project. See the
 - Node.js
 - npm or yarn
 
-### Installation
+### 🛠 Install 
 
 1. Clone the repo:
    ```bash
@@ -38,12 +38,12 @@ These instructions will help you set up a local instance of the project. See the
    cd GH-Homepage-Clone
    ```
 
-4. Install dependencies:
-   1.For ntwist-homepage:
+3. Install dependencies:.
+  For `ntwist-homepage`:
    ```bash
    npm install
    ```
-   2.For GH-Homepage-Clone
+   For `GH-Homepage-Clone`:
    ```bash
    npm run build
 
