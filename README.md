@@ -31,8 +31,14 @@ These instructions will help you set up a local instance of the project. See the
 2. Navigate to the directory of the assignment you wish to run. For instance, to navigate to ntwist-homepage:
    ```bash
    cd ntwist-homepage
+   ```
+   or
+   
+   ```bash
+   cd GH-Homepage-Clone
+   ```
 
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    npm install
 
