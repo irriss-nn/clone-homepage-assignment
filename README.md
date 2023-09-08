@@ -39,11 +39,11 @@ These instructions will help you set up a local instance of the project. See the
    ```
 
 4. Install dependencies:
-   For ntwist-homepage:
+   1.For ntwist-homepage:
    ```bash
    npm install
    ```
-   For GH-Homepage-Clone
+   2.For GH-Homepage-Clone
    ```bash
    npm run build
 
