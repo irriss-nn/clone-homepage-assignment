@@ -5,7 +5,7 @@ import FirstPart from './components/FirstPart/FirstPart';
 import Productivity from './components/SecondPart/ProductPage';
 import Collaboration from './components/ThirdPart/CollaPage';
 import Security from './components/FourthPart/SecurityPage';
-import Globe from './components/Foot/Globe';
+import Globe from './components/FifthPart/Globe';
 import Footer from './components/Foot/Footer';
 
 export default function Home() {
