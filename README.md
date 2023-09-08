@@ -44,7 +44,7 @@ These instructions will help you set up a local instance of the project. See the
    npm install
    ```
    For GH-Homepage-Clone
-   ``bash
+   ```bash
    npm run build
 
 ## 🏃 Running
